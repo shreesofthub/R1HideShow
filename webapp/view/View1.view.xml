@@ -1,0 +1,29 @@
+<mvc:View
+    controllerName="r1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="Practice Self Excercises - 1,2 ,3">
+                    <Text id="idText1" text="{i18n>title}" textAlign="Center" width="100%" class="sapMH1FontSize" ></Text>
+                    <Label id="idLabel1" text="Name" class="sapUiSmallMargin"/>
+                    <Input id="idInput1" placeholder="Give Student Name" enabled ="true" maxLength="10" width="30%" class="sapUiSmallMargin"></Input>
+                    <Input id="idInput2" placeholder="type of Alignment" width="30%" class="sapUiSmallMargin"/>
+                    <footer>
+                        <Bar id="idBar">
+                            <contentRight>
+                                <Button id="idBtn" text="Submit" type="Emphasized" press="onSubmit"></Button>
+                                <Button id="idBtn2" text="hideAll" type="Reject" press="onHide"></Button>
+                                <Button id="idBtn3" text="showAll" type="Accept" press="onAll"></Button>
+                                <Button id="idBtn4" text="hideFlip" type="Transparent" press="onFlip"/>
+                            </contentRight>
+                        </Bar>
+                    </footer>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>
